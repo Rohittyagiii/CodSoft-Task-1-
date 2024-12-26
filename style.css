@@ -1,0 +1,255 @@
+body{
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+  }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+  }
+  .nav-list a:hover {
+    background-color: #ddd;
+    color: blue;
+    border-radius: 4px;
+  }
+
+  .introduction {
+    text-align: center; 
+    margin: 50px 20px; 
+    font-family: 'Arial', sans-serif; 
+    position: relative;
+    top: 70px;
+  }
+
+  .head2 {
+    font-size: 2.5rem;
+    font-weight: bold; 
+    color: #333; 
+    line-height: 1.5;
+    margin-bottom: 20px; 
+  }
+
+  .text-skyish{
+    color: rgb(27, 155, 187);
+  }
+
+  .head3 {
+    font-size: 1.5rem; 
+    font-weight: 400; 
+    color: #555; 
+    margin-top: 0; 
+  }
+
+  .text-red{
+    color: red;
+  }
+
+  .image img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease;
+  }
+
+  .button {
+    text-align: center; 
+    margin: 20px 0;  
+  font-weight: bold;  
+  cursor: pointer;  
+  border-radius: 8px; 
+  transition: all 0.3s ease; 
+  }
+
+  .icon {
+    display: flex;
+    gap: 15px; 
+    justify-content: center; 
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .icon i {
+    font-size: 24px;
+    color: #333;  
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .icon i:hover {
+    color: #0077b5; 
+    transform: scale(1.2);  
+  }
+
+  .icon .fa-linkedin:hover {
+    color: #0077b5;
+  }
+  
+  .icon .fa-twitter:hover {
+    color: #1da1f2;
+  }
+
+  .icon .fa-github:hover {
+    color: #333;
+  }
+
+  .icon .fa-telegram:hover {
+    color: #0088cc;
+  }
+
+  .icon .fa-instagram:hover {
+    color: #e4405f;
+  }
+
+  .icon a {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon a i {
+    color: black;
+    font-size: 24px;
+}
+
+.icon a:hover {
+    background-color: #f0f0f0; 
+}
+  .imagesection{
+    background-image: url('assets/bg_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+  }
+
+  .text-white {
+    color: #ffffff;
+}
+
+.text-red {
+    color: #e74c3c;
+}
+
+.text-skyish {
+    color: #00aaff;
+}
+
+.highlight-keyword {
+    font-weight: bold;
+    color: #2d9cdb; 
+    background-color: #f1f1f1;  
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+ .highlight-keyword:hover {
+    color: #ffffff;
+    background-color: #2d9cdb;
+    transform: scale(1.1);
+}
+
+ .head3 {
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.head3:hover {
+    color: #e74c3c;
+}
+
+ .introduction h3 {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+ .head2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.text-white {
+  color: #ffffff;
+}
+
+.text-red {
+  color: #e74c3c;
+}
+
+.text-skyish {
+  color: #00aaff;
+}
+
+.highlight-keyword {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  color: #fff; 
+}
+
+.html {
+  background-color: #e34c26; 
+}
+
+.css {
+  background-color: #264de4;  
+}
+
+.bootstrap {
+  background-color: #563d7c;  
+}
+
+.react {
+  background-color: #61dafb;  
+}
+
+ .highlight-keyword:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+ .head3 {
+  font-size: 1.5em;
+  transition: color 0.3s ease;
+}
+
+.head3:hover {
+  color: #e74c3c;
+}
+
+ .introduction h3 {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+ .head2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+ .highlight-keyword i {
+  margin-right: 8px;
+  font-size: 1.4em;
+  vertical-align: middle;
+}
